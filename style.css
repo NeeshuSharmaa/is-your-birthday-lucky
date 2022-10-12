@@ -1,13 +1,16 @@
-
-
 body {  
     height: 100vh;
     width:100vw;
-    background-color: #f0fdf4;
+    /* background-color: #f0fdf4; */
 }
 
+.image {
+    background-image: url('images/bday.svg');
+    background-repeat: repeat-x;
+    height: 80vh;
+}
 h1 {
-    margin:4rem;
+    margin:2rem 4rem ;
     font-size:4rem;
     color: #075985;
 }
@@ -19,7 +22,7 @@ h1 {
     flex-wrap: wrap;
     background-color: #075985;
     padding: 2rem;
-    margin:2rem;
+    margin:4rem 1rem 2rem 2rem;
     width: 50%;
     color: white;
 }
