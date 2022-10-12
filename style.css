@@ -1,6 +1,6 @@
 body {  
-    height: 100vh;
-    width:100vw;
+    padding:0px;
+    margin:0px;
     /* background-color: #f0fdf4; */
 }
 
@@ -22,7 +22,7 @@ h1 {
     flex-wrap: wrap;
     background-color: #075985;
     padding: 2rem;
-    margin:4rem 1rem 2rem 2rem;
+    /* margin:4rem 1rem 2rem 2rem; */
     width: 50%;
     color: white;
 }
