@@ -16,23 +16,23 @@ function calculateSum(dob) {
 function checkBirthDateIsLucky () {
     const dob=dateOfBirth.value;
     const sum=calculateSum(dob);
-    if(sum         &&          dob) {
+    if(sum   &&    dob) {
         compareValue(sum, luckyNumber.value)
     }
     
     else {
-        outputBox.innerText="Please enter both the fields"
+        outputBox.innerText="Please enter both the fields!!"
     };
 }
 
 function compareValue(sum,luckyNumber) {
 
     if (sum%luckyNumber===0){
-        outputBox.innerText="Your birthday is not lucky" 
+        outputBox.innerText="Your birthday is the lucky one, hehee! ╰(*°▽°*)╯" 
 
     } 
     else {
-        outputBox.innerText="Your birthday isn't lucky"
+        outputBox.innerText="Oops! Your birthday isn't lucky. (●__●)"
     }
 }
 

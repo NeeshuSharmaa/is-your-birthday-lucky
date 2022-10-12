@@ -1,0 +1,38 @@
+
+
+body {  
+    height: 100vh;
+    width:100vw;
+    background-color: #f0fdf4;
+}
+
+h1 {
+    margin:4rem;
+    font-size:4rem;
+    color: #075985;
+}
+.input-output {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    background-color: #075985;
+    padding: 2rem;
+    margin:2rem;
+    width: 50%;
+    color: white;
+}
+
+#date-of-birth {
+    padding: 0.4rem;
+}
+#lucky-number {
+    padding: 0.5rem;
+}
+
+#check-number {
+    width: 30%;
+    align-self: center;
+    padding: 0.6rem;
+}
