@@ -13,27 +13,31 @@ function calculateSum(dob) {
     return sum;
 };
 
-function checkBirthDateIsLucky () {
-    const dob=dateOfBirth.value;
-    const sum=calculateSum(dob);
-    if(sum   &&    dob) {
-        compareValue(sum, luckyNumber.value)
-    }
+
+
+function compareValue(a,b) {
     
-    else {
-        outputBox.innerText="Please enter both the fields!!"
-    };
-}
 
-function compareValue(sum,luckyNumber) {
-
-    if (sum%luckyNumber===0){
+    if (a%b===0){
         outputBox.innerText="Your birthday is the lucky one, hehee! ╰(*°▽°*)╯" 
 
     } 
     else {
         outputBox.innerText="Oops! Your birthday isn't lucky. (●__●)"
     }
+}
+
+function checkBirthDateIsLucky () {
+    const dob=dateOfBirth.value;
+    const sum=calculateSum(dob);
+    const luckyNum = luckyNumber.value;
+    if(luckyNum   &&    dob) {
+        compareValue(sum, luckyNum)
+    }
+    
+    else {
+        outputBox.innerText="Please enter both the fields!!"
+    };
 }
 
 
